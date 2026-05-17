@@ -1,0 +1,174 @@
+# Booking System - .gitignore
+# Covers both Next.js frontend and Spring Boot backend
+
+# ====================
+# OPERATING SYSTEMS
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================
+# IDE & EDITORS
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# NEXT.JS / NODE
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# Next.js build outputs
+.next/
+out/
+build/
+dist/
+
+# Next.js cache
+.next-cache/
+
+# Environment variables
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ====================
+# SPRING BOOT / JAVA
+# ====================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot
+spring-boot-*.log
+application-dev.yml
+application-local.yml
+application-prod.yml
+
+# ====================
+# DATABASE
+# ====================
+*.sql
+*.sqlite
+*.db
+*.sqlite3
+
+# ====================
+# TESTING
+# ====================
+coverage/
+.nyc_output/
+.jest/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ====================
+# MISC
+# ====================
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ====================
+# PROJECT SPECIFIC
+# ====================
+# Uploads and user content
+uploads/
+public/uploads/
+
+# Configuration with secrets
+config/secrets.yml
+config/credentials.yml
+
+# Generated documentation
+docs/generated/
+api-docs/
+
+# ====================
+# DEPLOYMENT
+# ====================
+.serverless/
+.fusebox/
+.dynamodb/
+.sls-py-req/
+.serverless_plugins/
+
+# ====================
+# KEEP EXAMPLE FILES
+# ====================
+!.env.example
+!.env.example.*
